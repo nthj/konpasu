@@ -1,0 +1,7 @@
+Tested on Heroku with Ruby 1.9.2, Rails 3.0.5, and Compass 0.10.6
+
+To use, simply add:
+gem konpasu
+
+to your Gemfile, and Heroku will automatically set up Rails to compile 
+and serve your SASS stylesheets out of the tmp/ directory.
