@@ -5,7 +5,6 @@ module Konpasu
       FileUtils.mkdir_p Rails.root.join 'tmp', 'stylesheets'
       
       Compass.configuration do |config|
-        config.project_type     = :rails
         config.project_path     = Rails.root.to_s
         config.sass_dir         = 'app/stylesheets'
         config.css_dir          = 'tmp/stylesheets'
